@@ -1,0 +1,666 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "microsoft-search;1.1---happy-path:-search-on-microsoft",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "1.1 - Happy Path: Search on Microsoft",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"https://www.microsoft.com/en-ca/\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3426232459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the search icon on microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119794291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I type \"azure documentation\" on microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8049084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I press enter",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8239333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see \"Azure documentation | Microsoft Learn\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 654420167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click \"Azure documentation | Microsoft Learn\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 505877291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see \"Azure documentation\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1014801916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the search icon on learn.microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17041957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I type \"mcp servers\" on learn.microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7880165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I press enter",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92302208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see \"Azure developer documentation\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 533519374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click \"Azure developer documentation\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 338420583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see \"Azure developer documentation\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19366792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click the search icon on learn.microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36617833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I press enter",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2288125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see \"Search all across Microsoft Learn\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265253291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I type \"test this search bar\" on all microsoft learn",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13691957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I press enter",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64197874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see 'results for \"test this search bar\"'",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7321374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I close browser",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169612124
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "microsoft-search;2.1---edge-case:-search-with-wildcards-(e.g.-*-or-&)",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "2.1 - Edge Case: Search with wildcards (e.g. * or &)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I navigate to \"https://www.microsoft.com/en-ca/\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2307626500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I click the search icon on microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107880624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I type \"Q&A*\" on microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6096750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I press enter",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5130917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I should see \"Q&A in Microsoft Teams - Microsoft Support\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 793260582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I click \"Q&A in Microsoft Teams - Microsoft Support\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 867244500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should see \"Q&A in Microsoft Teams\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125720750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I close browser",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115233625
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "microsoft-search;2.2.1---edge-case:-internationalization---search-with-french-characters-(e.g.-é)",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "2.2.1 - Edge Case: Internationalization - Search with French characters (e.g. é)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "I navigate to \"https://www.microsoft.com/en-ca/\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2007209042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I click the search icon on microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108508166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I type \"Tréma\" on microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7665875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I press enter",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6069041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I should see 'Tréma'",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 755186125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I close browser",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109210415
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "microsoft-search;2.2.2--edge-case:-internationalization---search-with-non-latin-characters-(e.g.-chinese)",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "2.2.2 -Edge Case: Internationalization - Search with non-Latin characters (e.g. Chinese)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "I navigate to \"https://www.microsoft.com/en-ca/\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2179305791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I click the search icon on microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108277916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I type \"你好\" on microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28245542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "I press enter",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9691708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "I should see '你好'",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 869197458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I close browser",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124253542
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "microsoft-search;2.3--edge-case:-boundary---search-with-a-very-long-string",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "2.3 -Edge Case: Boundary - Search with a very long string",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "I navigate to \"https://www.microsoft.com/en-ca/\"",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2390471541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I click the search icon on microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110589041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I type \"abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz\" on microsoft.com",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5582624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I press enter",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6309417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I should see 'We are sorry, the page you requested cannot be found.'",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288859416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I close browser",
+            "match": {
+              "location": "src/tests/step-definitions/microsoft.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113499959
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "microsoft-search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Microsoft Search",
+    "tags": [],
+    "uri": "src/tests/features/microsoft.feature"
+  }
+]
