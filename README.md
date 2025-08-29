@@ -1,4 +1,4 @@
-PROJECT: Nuclear Promise X - Testing Microsoft Search
+PROJECT: BDD Automation - Testing Microsoft Search
 
 GOAL: This project is to demonstrate my ability to design automated test cases.
 
